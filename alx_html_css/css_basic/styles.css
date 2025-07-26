@@ -3,6 +3,9 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
 /* Make main a flex row */
@@ -16,6 +19,10 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+   border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 /* Make aside take 1/3 of space */
